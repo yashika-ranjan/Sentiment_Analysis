@@ -19,8 +19,8 @@ CORS(app)
 
 # Relative paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-STOPWORDS_PATH = os.path.join(BASE_DIR, r'backend/stopwords.txt')
-EMOTIONS_PATH = os.path.join(BASE_DIR, r'backend/emotions.txt')
+STOPWORDS_PATH = os.path.join(BASE_DIR, r'stopwords.txt')
+EMOTIONS_PATH = os.path.join(BASE_DIR, r'emotions.txt')
 
 # Load stopwords
 with open(STOPWORDS_PATH, "r") as sw:
