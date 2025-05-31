@@ -133,7 +133,6 @@ const Index = () => {
                   <EmotionChart data={result.chart_data} />
                 </CardContent>
               </Card>
-              
               <Card className="shadow-lg border-0">
                 <CardContent className="p-6">
                   <SentimentChart data={result.pie_data} />
@@ -182,14 +181,3 @@ const Index = () => {
 };
 
 export default Index;
-
-
-
-
-
-
-
-
-
-
-
