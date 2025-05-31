@@ -28,6 +28,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4 md:p-8">
       <div className="max-w-6xl mx-auto space-y-8">
+
         {/* Header */}
         <div className="text-center space-y-4">
           <div className="flex items-center justify-center gap-3">
@@ -44,9 +45,11 @@ const Index = () => {
         {/* Input Section */}
         <Card className="shadow-lg border-0">
           <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <TrendingUp className="h-5 w-5" />
-              Text Analysis
+            <CardTitle>
+              <div className="flex items-center gap-2">
+                <TrendingUp className="h-5 w-5" />
+                Text Analysis
+              </div>
             </CardTitle>
             <CardDescription>
               Enter your text below to analyze its sentiment and emotional content
@@ -64,8 +67,8 @@ const Index = () => {
               <span className="text-sm text-gray-500">
                 {text.length}/5000 characters
               </span>
-              <Button 
-                onClick={handleAnalyze} 
+              <Button
+                onClick={handleAnalyze}
                 disabled={isLoading || !text.trim()}
                 className="px-8"
               >
@@ -79,13 +82,15 @@ const Index = () => {
         {result && (
           <div className="space-y-6">
             <Separator />
-            
+
             {/* Overall Sentiment */}
             <Card className="shadow-lg border-0">
               <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Heart className="h-5 w-5" />
-                  Sentiment Analysis Results
+                <CardTitle>
+                  <div className="flex items-center gap-2">
+                    <Heart className="h-5 w-5" />
+                    Sentiment Analysis Results
+                  </div>
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -95,7 +100,7 @@ const Index = () => {
                   </Badge>
                   <span className="text-gray-700 text-lg">{result.explanation}</span>
                 </div>
-                
+
                 {/* Sentiment Scores */}
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
                   <div className="text-center p-4 bg-green-50 rounded-lg border">
@@ -162,9 +167,11 @@ const Index = () => {
             {/* AI Tip */}
             <Card className="shadow-lg border-0 bg-gradient-to-r from-blue-50 to-indigo-50">
               <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Lightbulb className="h-5 w-5 text-yellow-500" />
-                  AI Tip
+                <CardTitle>
+                  <div className="flex items-center gap-2">
+                    <Lightbulb className="h-5 w-5 text-yellow-500" />
+                    AI Tip
+                  </div>
                 </CardTitle>
               </CardHeader>
               <CardContent>
