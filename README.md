@@ -108,9 +108,9 @@ npm run dev
 {
   "sentiment": "Positive",
   "score": {
-    "pos": 0.63,
-    "neg": 0.04,
-    "neu": 0.33
+    "pos": 0.53,
+    "neg": 0.00,
+    "neu": 0.46
   },
   "explanation": "Your text reflects a positive attitude or mood.",
   "tip": "Keep spreading positivity! Positive writing often inspires others.",
