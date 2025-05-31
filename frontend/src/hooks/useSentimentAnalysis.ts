@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { analyzeSentimentAndEmotion } from '@/utils/sentimentAnalyzer';
 import { useToast } from './use-toast';
 
 export function useSentimentAnalysis() {
@@ -19,7 +18,19 @@ export function useSentimentAnalysis() {
 
     setIsLoading(true);
     try {
-      const analysisResult = await analyzeSentimentAndEmotion(text);
+      const response = await fetch('https://sentiment-backend-gbzh.onrender.com/analyze', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ text }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Backend error');
+      }
+
+      const analysisResult = await response.json();
       setResult(analysisResult);
       console.log('Analysis result:', analysisResult);
       return analysisResult;
