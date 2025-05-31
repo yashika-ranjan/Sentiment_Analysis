@@ -65,8 +65,8 @@ Sentiment-Analysis/
 
 | Main Dashboard | Chart View |
 |----------------|------------|
-| [![UI Screenshot](frontend/public/screenshot.png)](frontend/public/screenshot.png)
- | ![Screenshot 2](frontend/public/Screenshot 2.png) |
+| [![UI Screenshot](frontend/public/screenshot1.png)](frontend/public/screenshot1.png)
+ | ![UI Screenshot](frontend/public/screenshot2.png)](frontend/public/screenshot2.png)|
 
 ---
 
