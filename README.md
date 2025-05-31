@@ -70,8 +70,7 @@ Sentiment-Analysis/
 
 | Main Dashboard | Chart View |
 |----------------|------------|
-| ![UI Screenshot1](https://github.com/yashika-ranjan/Sentiment_Analysis/blob/main/frontend/public/Screenshot%201.png)| ![UI Screenshot2](https://github.com/yashika-ranjan/Sentiment_Analysis/blob/main/frontend/public/Screenshot%202.png)|
-![UI Screenshot3](https://github.com/yashika-ranjan/Sentiment_Analysis/blob/main/frontend/public/Screenshot%203.png)|
+| ![UI Screenshot1](https://github.com/yashika-ranjan/Sentiment_Analysis/blob/main/frontend/public/Screenshot%201.png)| ![UI Screenshot2](https://github.com/yashika-ranjan/Sentiment_Analysis/blob/main/frontend/public/Screenshot%202.png)|![UI Screenshot3](https://github.com/yashika-ranjan/Sentiment_Analysis/blob/main/frontend/public/Screenshot%203.png)|
 
 
 ---
