@@ -68,8 +68,8 @@ Sentiment-Analysis/
 
 ##  Sample UI Screens
 
-| Main Dashboard | Chart View |
-|----------------|------------|
+| Main Dashboard | Chart View | Emotions & AI Tip |
+|----------------|------------|-------------------|
 | ![UI Screenshot1](https://github.com/yashika-ranjan/Sentiment_Analysis/blob/main/frontend/public/Screenshot%201.png)| ![UI Screenshot2](https://github.com/yashika-ranjan/Sentiment_Analysis/blob/main/frontend/public/Screenshot%202.png)|![UI Screenshot3](https://github.com/yashika-ranjan/Sentiment_Analysis/blob/main/frontend/public/Screenshot%203.png)|
 
 
